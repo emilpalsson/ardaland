@@ -72,6 +72,19 @@ SI.Images.enemyImg.phases = 2 - 1;
 SI.Images.enemyImg.width = 40;
 SI.Images.enemyImg.height = 30;
 
+SI.Images.enemyImgs = []
+for (var i = 1; i <= 1; i++) {
+	var enemyImg = new Image();
+	enemyImg.src = 'images/enemy' + i + '.png';
+	enemyImg.phases = SI.Images.enemyImg.phases;
+	enemyImg.width = SI.Images.enemyImg.width;
+	enemyImg.height = SI.Images.enemyImg.height;
+	SI.Images.enemyImgs.push(enemyImg);
+}
+SI.Images.getRandomEnemyImg = function() {
+	return SI.Images.enemyImgs[Math.floor(Math.random() * SI.Images.enemyImgs.length)];
+}
+
 SI.Images.rocketImg = new Image();
 SI.Images.rocketImg.src = 'images/rocket.png';
 

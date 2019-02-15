@@ -151,7 +151,7 @@ SI.Game.prototype.createEnemyShips = function (rows, coulmns) {
 					y: yPos,
 					width: SI.Sizes.enemyWidth,
 					height: SI.Sizes.enemyHeight,
-					img: SI.Images.enemyImg}));
+					img: SI.Images.getRandomEnemyImg()}));
 				xPos += SI.Sizes.enemyWidth + SI.Sizes.enemySpacing;
 		}
 		yPos += SI.Sizes.enemyHeight + SI.Sizes.enemySpacing;
