@@ -120,7 +120,7 @@ SI.Game.prototype.initializeGame = function () {
 SI.Game.prototype.checkEndGame = function () {
 	if(this.enemies.ships.length == 0) {
 		clearInterval(this.clock);
-		this.newGamePrompt('Du vann!');
+		this.newGamePrompt('Du vann, men du förlorar ändå. För nu får inte staten in några skattepengar från spelbolagen så du får ingen vård, dina barn kan inte gå i skolan och ingen kommer laga de där hålen i vägen på väg till ditt jobb. Bra jobbat. Verkligen.');
 	}
 	else if(this.lives == 0 ||
 			this.enemies.ships[this.enemies.ships.length - 1][0].y >=
