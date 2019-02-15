@@ -35,8 +35,8 @@ SI.Sizes = {
 	SI.Sizes.enemyStepVert = 10 * SI.Sizes.modifier;
 	SI.Sizes.enemySpacing = 15 * SI.Sizes.modifier;
 
-	SI.Sizes.rocketHeight = 20 * SI.Sizes.modifier;
-	SI.Sizes.rocketWidth = 6 * SI.Sizes.modifier;
+	SI.Sizes.rocketHeight = 36 * SI.Sizes.modifier;
+	SI.Sizes.rocketWidth = 25 * SI.Sizes.modifier;
 	SI.Sizes.rocketStep = 20 * SI.Sizes.modifier;
 
 	SI.Sizes.explosionWidth = 40 * SI.Sizes.modifier;
