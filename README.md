@@ -1,7 +1,7 @@
-# Space Invaders implementation in HTML5 and Javascript
+# Ardaland
 
 Hosted on:
-<a href="http://oz.elentok.com/space">http://oz.elentok.com/space</a>
+[https://ardaland.svt.se/](https://ardaland.svt.se/)
 
 ## Instructions
 
@@ -12,3 +12,6 @@ Hosted on:
 ### Shooting:
 * Up arrow key (keyboard)
 * Tapping on the screen (touch screen)
+
+## Acknowledgement
+Reskinned version of [@ozelentok](https://github.com/ozelentok)'s [SpaceInvaders](https://github.com/ozelentok/SpaceInvaders).
