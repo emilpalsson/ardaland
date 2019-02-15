@@ -120,13 +120,13 @@ SI.Game.prototype.initializeGame = function () {
 SI.Game.prototype.checkEndGame = function () {
 	if(this.enemies.ships.length == 0) {
 		clearInterval(this.clock);
-		this.newGamePrompt('You Win!');
+		this.newGamePrompt('Du vann!');
 	}
 	else if(this.lives == 0 ||
 			this.enemies.ships[this.enemies.ships.length - 1][0].y >=
 			SI.Sizes.bottomMargin - SI.Sizes.enemyHeight) {
 		clearInterval(this.clock);
-		this.newGamePrompt('You Lost!');
+		this.newGamePrompt('Du förlorade!');
 	}
 }
 
@@ -422,15 +422,15 @@ SI.Game.prototype.drawStatus = function () {
 	this.ctx.fillStyle  = SI.Colors.text;
 	this.ctx.lineWidth = SI.Sizes.lineWidth;
 
-	var output = 'Points: ' + this.points;
+	var output = 'Poäng: ' + this.points;
 	this.ctx.fillText(output, SI.Sizes.leftMargin, SI.Sizes.textMargin); 
 
-	output = 'Lives left: ' + this.lives;
+	output = 'Liv: ' + this.lives;
 	this.ctx.fillText(output, SI.Sizes.textRightMargin, SI.Sizes.textMargin); 
 }
 
 SI.Game.prototype.newGamePrompt = function (message) {
-	var promptQuestion = message + '\nPlay Again?';
+	var promptQuestion = message + '\nSpela igen?';
 	var playAgain = confirm(promptQuestion);
 	if (playAgain) {
 		this.initializeGame();

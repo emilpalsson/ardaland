@@ -50,7 +50,7 @@ SI.Sizes = {
 	SI.Sizes.rightMargin = SI.Sizes.width - 10 * SI.Sizes.modifier;
 
 	SI.Sizes.textMargin = SI.Sizes.bottomMargin + 45 * SI.Sizes.modifier;
-	SI.Sizes.textRightMargin = SI.Sizes.width - 140 * SI.Sizes.modifier;
+	SI.Sizes.textRightMargin = SI.Sizes.width - 80 * SI.Sizes.modifier;
 
 	SI.Sizes.popUpX = 50 * SI.Sizes.modifier;
 	SI.Sizes.popUpY = 100 * SI.Sizes.modifier;
