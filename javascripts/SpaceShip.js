@@ -85,7 +85,7 @@ SI.Rocket = function (options) {
 		x: 0,
 		y: 0,
 		direction: null,
-		img: SI.Images.rocketImg,
+		img: options.direction === SI.Directions.Down ? SI.Images.rocketDownImg : SI.Images.rocketUpImg,
 		exploded: false
 	}
 	for (var key in defaultOptions) {

@@ -85,8 +85,11 @@ SI.Images.getRandomEnemyImg = function() {
 	return SI.Images.enemyImgs[Math.floor(Math.random() * SI.Images.enemyImgs.length)];
 }
 
-SI.Images.rocketImg = new Image();
-SI.Images.rocketImg.src = 'images/rocket.png';
+SI.Images.rocketUpImg = new Image();
+SI.Images.rocketUpImg.src = 'images/rocket-up.png';
+
+SI.Images.rocketDownImg = new Image();
+SI.Images.rocketDownImg.src = 'images/rocket-down.png';
 
 SI.Images.explosionImg = new Image();
 SI.Images.explosionImg.src = 'images/explosion.png';
