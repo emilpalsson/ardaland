@@ -67,7 +67,7 @@ SI.Images.playerImg.width = 100;
 SI.Images.playerImg.height = 80;
 
 SI.Images.enemyImg = new Image();
-SI.Images.enemyImg.src = 'images/enemy.png';
+SI.Images.enemyImg.src = 'images/enemy1.png';
 SI.Images.enemyImg.phases = 1 - 1;
 SI.Images.enemyImg.width = 80;
 SI.Images.enemyImg.height = 30;
