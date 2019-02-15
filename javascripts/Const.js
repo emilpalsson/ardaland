@@ -24,8 +24,8 @@ SI.Sizes = {
 	SI.Sizes.enemyInRow = Math.floor(SI.Sizes.height / SI.Sizes.modifier / 100);
 	SI.Sizes.enemyInColumn = Math.floor(SI.Sizes.width / SI.Sizes.modifier / 80);
 
-	SI.Sizes.playerShipWidth = 40 * SI.Sizes.modifier;
-	SI.Sizes.playerShipHeight = 20 * SI.Sizes.modifier;
+	SI.Sizes.playerShipWidth = 100 * SI.Sizes.modifier;
+	SI.Sizes.playerShipHeight = 80 * SI.Sizes.modifier;
 	SI.Sizes.playerStep = 20 * SI.Sizes.modifier;
 
 
@@ -63,8 +63,8 @@ SI.Images = {};
 SI.Images.playerImg = new Image();
 SI.Images.playerImg.src = 'images/player.png';
 SI.Images.playerImg.phases = 1 - 1;
-SI.Images.playerImg.width = 40;
-SI.Images.playerImg.height = 20;
+SI.Images.playerImg.width = 100;
+SI.Images.playerImg.height = 80;
 
 SI.Images.enemyImg = new Image();
 SI.Images.enemyImg.src = 'images/enemy.png';
