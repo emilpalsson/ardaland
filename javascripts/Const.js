@@ -22,17 +22,17 @@ SI.Sizes = {
 	}
 
 	SI.Sizes.enemyInRow = Math.floor(SI.Sizes.height / SI.Sizes.modifier / 100);
-	SI.Sizes.enemyInColumn = Math.floor(SI.Sizes.width / SI.Sizes.modifier / 80);
+	SI.Sizes.enemyInColumn = Math.floor(SI.Sizes.width / SI.Sizes.modifier / 120);
 
 	SI.Sizes.playerShipWidth = 100 * SI.Sizes.modifier;
 	SI.Sizes.playerShipHeight = 80 * SI.Sizes.modifier;
 	SI.Sizes.playerStep = 20 * SI.Sizes.modifier;
 
 
-	SI.Sizes.enemyWidth = 40 * SI.Sizes.modifier;
+	SI.Sizes.enemyWidth = 80 * SI.Sizes.modifier;
 	SI.Sizes.enemyHeight = 30 * SI.Sizes.modifier;
 	SI.Sizes.enemyStepHort = 3 * SI.Sizes.modifier;
-	SI.Sizes.enemyStepVert = 10 * SI.Sizes.modifier;
+	SI.Sizes.enemyStepVert = 20 * SI.Sizes.modifier;
 	SI.Sizes.enemySpacing = 15 * SI.Sizes.modifier;
 
 	SI.Sizes.rocketHeight = 36 * SI.Sizes.modifier;
@@ -68,12 +68,12 @@ SI.Images.playerImg.height = 80;
 
 SI.Images.enemyImg = new Image();
 SI.Images.enemyImg.src = 'images/enemy.png';
-SI.Images.enemyImg.phases = 2 - 1;
-SI.Images.enemyImg.width = 40;
+SI.Images.enemyImg.phases = 1 - 1;
+SI.Images.enemyImg.width = 80;
 SI.Images.enemyImg.height = 30;
 
 SI.Images.enemyImgs = []
-for (var i = 1; i <= 1; i++) {
+for (var i = 1; i <= 9; i++) {
 	var enemyImg = new Image();
 	enemyImg.src = 'images/enemy' + i + '.png';
 	enemyImg.phases = SI.Images.enemyImg.phases;
